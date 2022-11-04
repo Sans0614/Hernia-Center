@@ -1,0 +1,701 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", "Noto Sans TC", "微軟正黑體", sans-serif;
+  word-break: break-word;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 132px;
+}
+
+@media (max-width: 1023.98px) {
+  body {
+    padding-top: 76px;
+  }
+}
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 60px;
+  }
+}
+a, a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #12665C;
+}
+
+p {
+  margin-bottom: 8px !important;
+}
+
+.brand-green {
+  color: #20B78A;
+}
+
+.red {
+  color: #FF0000;
+}
+
+.table-bg-white {
+  background-color: #fff;
+}
+.table-bg-white:hover {
+  background-color: #fff;
+}
+
+.table-bg-1 {
+  background-color: #CEF6EB;
+}
+.table-bg-1:hover {
+  background-color: #BEE6CE;
+}
+
+.table-bg-2 {
+  background-color: #F6CECE;
+}
+.table-bg-2:hover {
+  background-color: #F6A7A7;
+}
+
+.table-bg-3 {
+  background-color: #F6F0CE;
+}
+.table-bg-3:hover {
+  background-color: #F6EAA7;
+}
+
+.bg-basic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fz-16 {
+  font-size: 16px !important;
+}
+
+.fz-18 {
+  font-size: 18px !important;
+}
+
+.fz-20 {
+  font-size: 20px !important;
+}
+
+.fz-22 {
+  font-size: 22px !important;
+}
+
+.fz-24 {
+  font-size: 24px !important;
+}
+
+.fz-28 {
+  font-size: 28px !important;
+}
+
+.fz-32 {
+  font-size: 32px !important;
+}
+
+@media (max-width: 767.98px) {
+  .fz-mb-16 {
+    font-size: 16px !important;
+  }
+
+  .fz-mb-24 {
+    font-size: 24px !important;
+  }
+}
+.position-absolute-center {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+}
+
+/*Header Fixed*/
+.site-header {
+  z-index: 1000;
+  position: fixed !important;
+  width: 100%;
+  top: 0px;
+}
+
+/*To-Top按鈕*/
+#goto-top-fixed-button, .line-fixed-button {
+  position: fixed;
+  z-index: 4;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+#goto-top-fixed-button {
+  right: 24px;
+  bottom: 40px;
+  background-color: #20B78A;
+}
+
+.line-fixed-button {
+  right: 24px;
+  bottom: 108px;
+  background-color: #03C755;
+}
+
+@media (max-width: 767.98px) {
+  #goto-top-fixed-button, .line-fixed-button {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+  }
+
+  .line-fixed-button {
+    bottom: 92px;
+  }
+}
+/*Navbar Topbar 左右間距*/
+aside.header-widget-area.widget-area.site-header-focus-item.header-widget-area-inner {
+  padding: 0;
+}
+
+/*Navbar 手機版子選單*/
+@media (max-width: 1023.98px) {
+  ul.sub-menu {
+    background-color: #12665C !important;
+  }
+}
+/*最新消息 - 首頁 / 最新消息頁 */
+.elementor-element-406e2b2 .elementor-posts .elementor-post__text, .elementor-element-563c09c .elementor-posts .elementor-post__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.elementor-element-406e2b2 .elementor-posts .elementor-post__title, .elementor-element-563c09c .elementor-posts .elementor-post__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 20px;
+}
+.elementor-element-406e2b2 .elementor-posts .elementor-post__meta-data, .elementor-element-563c09c .elementor-posts .elementor-post__meta-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-bottom: 0;
+}
+.elementor-element-406e2b2 .elementor-posts .elementor-post__read-more, .elementor-element-563c09c .elementor-posts .elementor-post__read-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+.elementor-element-406e2b2 .elementor-posts .elementor-post__read-more:hover, .elementor-element-563c09c .elementor-posts .elementor-post__read-more:hover {
+  color: #20B78A;
+}
+.elementor-element-406e2b2 .elementor-post:last-child, .elementor-element-563c09c .elementor-post:last-child {
+  border: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .elementor-element-406e2b2 .elementor-posts .elementor-post__title > a, .elementor-element-563c09c .elementor-posts .elementor-post__title > a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 240px;
+  }
+  .elementor-element-406e2b2 .elementor-posts .elementor-post__read-more, .elementor-element-563c09c .elementor-posts .elementor-post__read-more {
+    display: none;
+  }
+}
+/*疝氣種類幻燈片 - 首頁*/
+.elementor-626 .ue-carousel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.elementor-626 .ue-carousel-item .uc_classic_carousel_placeholder, .elementor-626 .ue-carousel-item .uc_classic_carousel_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+.elementor-626 .ue-carousel-item .uc_classic_carousel_placeholder .ue_button, .elementor-626 .ue-carousel-item .uc_classic_carousel_content .ue_button {
+  margin-top: 0;
+}
+
+/*疝氣種類幻燈片 - 左右按鈕隱藏 - 首頁*/
+@media (max-width: 1023.98px) {
+  .uc_classic_carousel .owl-nav {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .uc_classic_carousel .owl-nav {
+    display: block;
+  }
+
+  .elementor-626 .ue-carousel-item {
+    display: block;
+  }
+  .elementor-626 .ue-carousel-item .uc_classic_carousel_placeholder, .elementor-626 .ue-carousel-item .uc_classic_carousel_content {
+    display: block;
+  }
+  .elementor-626 .ue-carousel-item .uc_more_btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+/*病患心得分享 - 左右按鈕 - 首頁*/
+cite.elementor-testimonial__cite {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+span.elementor-testimonial__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elementor-star-rating {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+span.elementor-testimonial__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  margin-top: 16px;
+}
+
+.elementor-testimonial__text {
+  text-align: left;
+}
+
+@media (max-width: 1023.98px) {
+  .elementor-element-058a694 .elementor-swiper-button.elementor-swiper-button-prev, .elementor-element-058a694 .elementor-swiper-button.elementor-swiper-button-next {
+    display: none;
+  }
+}
+/*表格 - 連結字體大小*/
+.eael-data-table .td-content a {
+  font-size: 18px;
+}
+
+/*表格 - 文字直行*/
+@media (max-width: 767.98px) {
+  .eael-data-table .td-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*表格 - 寬度*/
+@media (max-width: 1023.98px) {
+  .eael-data-table-wrap {
+    overflow-x: scroll !important;
+  }
+
+  /*門診時間 - 表格寬度*/
+  table.eael-data-table {
+    width: 1200px;
+    max-width: 400% !important;
+  }
+
+  /*手術比較 - 表格寬度 - 首頁*/
+  table#eael-data-table-f9ccbbf {
+    width: 920px;
+    max-width: 300%;
+  }
+
+  /*注意事項 - 表格寬度*/
+  table#eael-data-table-faf4f5b {
+    width: 100%;
+  }
+  table#eael-data-table-faf4f5b .td-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*表單*/
+.wpcf7-list-item:first-child {
+  margin: 0 !important;
+}
+
+.wpcf7 form > div, .wpcf7 form > p {
+  margin-bottom: 0 !important;
+}
+
+/*FAQ*/
+.elementor-toggle .elementor-tab-title.elementor-active {
+  border-bottom: 1px solid #20B78A !important;
+}
+.elementor-toggle .elementor-toggle-item:last-child .elementor-tab-title, .elementor-toggle .elementor-toggle-item:last-child .elementor-tab-content {
+  border-bottom: none;
+}
+
+.navbar-contact-info, .navbar-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-contact-info a:hover .fz-16, .navbar-social a:hover .fz-16 {
+  color: #F1F2D5;
+}
+
+.navbar-contact-phone, .navbar-contact-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 12px 24px;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+.navbar-contact-phone img, .navbar-contact-address img {
+  width: 16px;
+  height: 16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 8px;
+}
+
+.navbar-social-facebook, .navbar-social-line {
+  padding: 12px 20px;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+.navbar-social-facebook img, .navbar-social-line img {
+  width: 22px;
+  height: 22px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.navbar-contact-address, .navbar-social-line {
+  border-left: none;
+}
+
+.index-contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 300px;
+  border: 1px solid #20B78A;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 32px;
+}
+.index-contact-card h3 {
+  margin-bottom: 8px;
+}
+.index-contact-card h5 {
+  margin-bottom: 12px;
+}
+
+.index-contact-card-cta-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 0;
+}
+.index-contact-card-cta-content:first-child {
+  border-bottom: 1px solid #000;
+}
+
+.index-doctor-team {
+  padding: 4px 24px 48px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.doctor-team-position {
+  letter-spacing: 4;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+  font-weight: 400;
+  color: #000;
+}
+
+.doctor-team-skills-title, .doctor-team-experience-title {
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  color: #000;
+}
+
+.doctor-team-skills-content, .doctor-team-experience-content {
+  font-weight: 300;
+  color: #000;
+}
+.doctor-team-skills-content li, .doctor-team-experience-content li {
+  list-style-type: none;
+}
+
+.table-badge {
+  color: #fff;
+  background-color: #FF0000;
+  padding: 8px 20px;
+  border-radius: 100px;
+}
+
+.input-content {
+  border: 0 !important;
+  background-color: #eee !important;
+  border-radius: 4px !important;
+  padding: 16px 20px !important;
+  color: #333 !important;
+  -webkit-appearance: button;
+}
+
+input.input-content[type=date]::before {
+  content: attr(placeholder);
+}
+
+.input-radio input[type=radio] {
+  accent-color: #000 !important;
+}
+
+.input-submit {
+  color: #fff !important;
+  width: 100% !important;
+}
+
+.form-block {
+  border: 2px solid #20B78A;
+}
+
+.form-block-2 {
+  padding: 24px;
+}
+.form-block-2 p {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .form-block-2 {
+    padding: 20px;
+  }
+}
+.form-question-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #BEE6CE;
+  padding: 12px 20px;
+}
+.form-question-block div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.form-question-block:nth-child(odd) {
+  background-color: #E1F1E8;
+}
+
+.footer .fz-16 {
+  font-weight: 300;
+}
+.footer a:hover .footer-menu-btn, .footer a:hover .fz-16 {
+  color: #F1F2D5;
+}
+
+.footer-intro, .footer-menu {
+  color: #fff;
+}
+
+@media (max-width: 1023.98px) {
+  .footer-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 24px;
+  }
+}
+.footer-logo {
+  width: 300px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 767.98px) {
+  .footer-logo {
+    width: 280px;
+  }
+}
+.footer-social {
+  margin-top: 24px;
+}
+
+.footer-social-facebook, .footer-social-line {
+  padding: 12px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  margin-bottom: 12px;
+}
+.footer-social-facebook img, .footer-social-line img {
+  width: 22px;
+  height: 22px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer-social-line {
+  margin-left: 16px;
+}
+
+.footer-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767.98px) {
+  .footer-title {
+    font-size: 20px;
+  }
+}
+.footer-title-hr {
+  width: 40px;
+  height: 2px;
+  background-color: #6D9F71;
+  margin-bottom: 12px;
+}
+
+.footer-menu-btn {
+  padding: 4px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer-menu-address, .footer-menu-phone, .footer-menu-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 0;
+  color: #fff;
+}
+.footer-menu-address img, .footer-menu-phone img, .footer-menu-mail img {
+  width: 17px;
+  height: 17px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 8px;
+}
