@@ -113,7 +113,6 @@ p {
   .fz-mb-16 {
     font-size: 16px !important;
   }
-
   .fz-mb-24 {
     font-size: 24px !important;
   }
@@ -165,7 +164,6 @@ p {
     height: 44px;
     padding: 10px;
   }
-
   .line-fixed-button {
     bottom: 92px;
   }
@@ -269,7 +267,6 @@ aside.header-widget-area.widget-area.site-header-focus-item.header-widget-area-i
   .uc_classic_carousel .owl-nav {
     display: block;
   }
-
   .elementor-626 .ue-carousel-item {
     display: block;
   }
@@ -366,24 +363,21 @@ span.elementor-testimonial__title {
   .eael-data-table-wrap {
     overflow-x: scroll !important;
   }
-
   /*門診時間 - 表格寬度*/
   table.eael-data-table {
     width: 1200px;
     max-width: 400% !important;
   }
-
   /*手術比較 - 表格寬度 - 首頁*/
   table#eael-data-table-f9ccbbf {
     width: 920px;
     max-width: 300%;
   }
-
   /*注意事項 - 表格寬度*/
-  table#eael-data-table-faf4f5b {
+  table#eael-data-table-faf4f5b, table#eael-data-table-48be685 {
     width: 100%;
   }
-  table#eael-data-table-faf4f5b .td-content {
+  table#eael-data-table-faf4f5b .td-content, table#eael-data-table-48be685 .td-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -610,7 +604,6 @@ input.input-content[type=date]::before {
         -ms-flex-align: center;
             align-items: center;
   }
-
   .footer-menu {
     display: -webkit-box;
     display: -ms-flexbox;
