@@ -533,7 +533,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -547,6 +547,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1023.98px",
+			"767.98px",
+			"max-width",
 			"goto",
 			"navbar",
 			"表格",
@@ -671,10 +674,7 @@
 			".red.mt-8px",
 			"需要限制只能使用小寫英文/數字/底線/英文句點",
 			"/-/_/.",
-			"<div class=\"edit-social-personal-page-user-data-block\">",
-			"edit-social-personal-page-user-data-block",
-			"//20220517 新增placeholder",
-			"input.edit-social-pe"
+			"<div class=\"edit-social-personal-page-user-data-block\">"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -840,8 +840,28 @@
 						"selection":
 						[
 							[
-								5399,
-								5399
+								2696,
+								2696
+							],
+							[
+								3905,
+								3905
+							],
+							[
+								4776,
+								4776
+							],
+							[
+								5149,
+								5149
+							],
+							[
+								8693,
+								8693
+							],
+							[
+								11835,
+								11835
 							]
 						],
 						"settings":
@@ -927,7 +947,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4979.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -946,8 +966,8 @@
 						"selection":
 						[
 							[
-								401,
-								401
+								0,
+								14767
 							]
 						],
 						"settings":
@@ -1204,8 +1224,8 @@
 		"cols":
 		[
 			0.0,
-			0.258315412186,
-			0.739545997611,
+			0.370621266427,
+			0.887096774194,
 			1.0
 		],
 		"rows":

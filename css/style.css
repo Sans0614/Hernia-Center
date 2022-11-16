@@ -17,12 +17,12 @@ body {
   padding-top: 132px;
 }
 
-@media (max-width: 1023.98px) {
+@media (max-width: 1199.98px) {
   body {
     padding-top: 76px;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   body {
     padding-top: 60px;
   }
@@ -109,7 +109,7 @@ p {
   font-size: 32px !important;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   .fz-mb-16 {
     font-size: 16px !important;
   }
@@ -158,7 +158,7 @@ p {
   background-color: #03C755;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   #goto-top-fixed-button, .line-fixed-button {
     width: 44px;
     height: 44px;
@@ -174,7 +174,7 @@ aside.header-widget-area.widget-area.site-header-focus-item.header-widget-area-i
 }
 
 /*Navbar 手機版子選單*/
-@media (max-width: 1023.98px) {
+@media (max-width: 1199.98px) {
   ul.sub-menu {
     background-color: #12665C !important;
   }
@@ -228,7 +228,7 @@ aside.header-widget-area.widget-area.site-header-focus-item.header-widget-area-i
   border: none !important;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   .elementor-element-406e2b2 .elementor-posts .elementor-post__title > a, .elementor-element-563c09c .elementor-posts .elementor-post__title > a {
     overflow: hidden;
     white-space: nowrap;
@@ -258,12 +258,12 @@ aside.header-widget-area.widget-area.site-header-focus-item.header-widget-area-i
 }
 
 /*疝氣種類幻燈片 - 左右按鈕隱藏 - 首頁*/
-@media (max-width: 1023.98px) {
+@media (max-width: 1199.98px) {
   .uc_classic_carousel .owl-nav {
     display: none;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   .uc_classic_carousel .owl-nav {
     display: block;
   }
@@ -339,7 +339,7 @@ span.elementor-testimonial__title {
   text-align: left;
 }
 
-@media (max-width: 1023.98px) {
+@media (max-width: 1199.98px) {
   .elementor-element-058a694 .elementor-swiper-button.elementor-swiper-button-prev, .elementor-element-058a694 .elementor-swiper-button.elementor-swiper-button-next {
     display: none;
   }
@@ -350,7 +350,7 @@ span.elementor-testimonial__title {
 }
 
 /*表格 - 文字直行*/
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   .eael-data-table .td-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -359,7 +359,7 @@ span.elementor-testimonial__title {
   }
 }
 /*表格 - 寬度*/
-@media (max-width: 1023.98px) {
+@media (max-width: 1199.98px) {
   .eael-data-table-wrap {
     overflow-x: scroll !important;
   }
@@ -555,7 +555,7 @@ input.input-content[type=date]::before {
   width: 100%;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   .form-block-2 {
     padding: 20px;
   }
@@ -591,7 +591,7 @@ input.input-content[type=date]::before {
   color: #fff;
 }
 
-@media (max-width: 1023.98px) {
+@media (max-width: 1199.98px) {
   .footer-intro {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -623,7 +623,7 @@ input.input-content[type=date]::before {
   margin-bottom: 12px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   .footer-logo {
     width: 280px;
   }
@@ -656,7 +656,7 @@ input.input-content[type=date]::before {
   margin-bottom: 8px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 567.98px) {
   .footer-title {
     font-size: 20px;
   }
